@@ -4,8 +4,8 @@ stages {
 stage ('Build') {
  steps { 
 sh 'echo "HELLO WORLD"' 
-sh ''' e
-cho "This will list current dir content from latest"
+sh ''' 
+echo "This will list current dir content from latest"
  ls -lh
  '''
  } 
@@ -18,5 +18,5 @@ echo "This list current dir"
 pwd 
 ''' }
  }
- }
+ }https://github.com/angela-andrews/jenkinstest
  }
