@@ -3,20 +3,21 @@ agent any
 stages { 
 stage ('Build') {
  steps { 
-sh 'echo "HELLO WORLD"' 
-sh ''' e
-cho "This will list current dir content from latest"
- ls -lh
+sh 'echo "HELLO Angela"' 
+sh ''' 
+echo "Welcome to Branch 2"
+uname -a
  '''
  } 
 } 
 stage ('Test') { 
 steps { 
-sh 'echo "HELLO TEST"' 
+sh 'echo "HELLO Branch2"' 
 sh ''' 
-echo "This list current dir" 
-pwd 
-''' }
+echo "Ran a uname command" 
+uname -a 
+'''
+ }
  }
  }
  }
