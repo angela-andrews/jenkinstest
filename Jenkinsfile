@@ -6,7 +6,7 @@ stage ('Build') {
 sh 'echo "HELLO WORLD"' 
 sh ''' 
 echo "This will list current dir content from latest"
- ls -lh
+ls -lh
  '''
  } 
 } 
@@ -18,5 +18,5 @@ echo "This list current dir"
 pwd 
 ''' }
  }
- }https://github.com/angela-andrews/jenkinstest
+ }
  }
